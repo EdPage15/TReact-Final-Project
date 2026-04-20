@@ -1018,6 +1018,10 @@ MOBILE RESPONSIVENESS ↓
     #pricing .row {
         margin-top: 40px;
     }
+    .plans {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 @media(max-width: 640px) {
