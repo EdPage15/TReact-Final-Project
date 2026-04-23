@@ -1178,15 +1178,10 @@ MOBILE RESPONSIVENESS ↓
     .steps__img {
         margin-bottom: 16px;
     }
-    .testimonial__rating,
-    .feature {
+    .testimonial__rating {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    .feature {
-        flex-direction: column;
-        text-align: center;
     }
 }
 
