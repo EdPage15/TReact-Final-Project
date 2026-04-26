@@ -914,6 +914,7 @@ header .row {
     align-items: center;
     margin: 0px auto;
     padding: 0px 32px;
+    flex-direction: row;
 }
 
 .start__title,
