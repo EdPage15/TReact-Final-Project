@@ -53,6 +53,7 @@ div {
 
 .container {
     padding: 96px 0;
+    width: 100%;
 }
 
 .row {
@@ -262,7 +263,6 @@ header .row {
     display: flex;
     text-align: center;
     flex-direction: column;
-
     padding: 8px;
 }
 
@@ -903,6 +903,7 @@ header .row {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .start__row {
@@ -986,7 +987,7 @@ footer {
 
 .footer__columns {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin-top: -48px;
 }
@@ -995,8 +996,9 @@ footer {
     margin-top: 48px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     z-index: 2;
+    min-width: 200px;
 }
 
 .footer__column--title {
@@ -1121,7 +1123,13 @@ MOBILE RESPONSIVENESS ↓
 }
 
 @media (max-width: 1024px) {
-
+    .header__email--btn{
+        height: 68px;
+    }
+    .email {
+        flex-direction: column;
+        height: 150px;
+    }
     .menu__btn {
         display: block;
     }
@@ -1202,6 +1210,10 @@ MOBILE RESPONSIVENESS ↓
     .header__description,
     .feature {
         width: 100%;
+    }
+    .header__description,
+    .plans {
+        align-items: center;
     }
     .header__description--para {
         padding: 20px 0;
@@ -1311,19 +1323,18 @@ MOBILE RESPONSIVENESS ↓
     .section__title {
         font-size: 36px;
     }
-    .email {
-        flex-direction: column;
-        height: 150px;
-    }
-    .header__email--btn{
-        height: 68px;
-    }
     .steps__img {
         margin-bottom: 16px;
     }
     .testimonial__rating {
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    .plan {
+        margin-right: 0;
+    }
+    .footer__column {
         align-items: center;
     }
 }
