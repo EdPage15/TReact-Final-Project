@@ -1035,6 +1035,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-direction: column;
 }
 
 .footer__logo {
@@ -1058,6 +1059,7 @@ footer {
 .footer__copyright {
     color: rgb(203, 213, 224);
     font-weight: 500;
+    margin: 8px 0;
 }
 
 .footer__social--links {
